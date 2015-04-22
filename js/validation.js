@@ -79,7 +79,15 @@ $(document).ready(function(){
 				if(error === true) {
 					val_err.stop().fadeIn(400).delay(1400).fadeOut(800);
 					return false;
-		        } else {} 
+		        } else {
+
+		        	$.ajax({
+		        		url: 'login.php',
+		        		type: GET,
+		        		data: data,
+		        		success: 
+		        	});
+		        } 
 
 				return false;	
 			});
