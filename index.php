@@ -9,7 +9,7 @@ if($user->isLoggedIn()) {
 <?php
 } else {
 	echo 'Hello Guest!';
-	echo '<p>If you want you can <a id="login" href="#">log in</a> or <a id="register" href="#register.php">register</a></p>';
+	echo '<p>If you want you can <a id="login" href="#log-in">log in</a> or <a id="register" href="#register">register</a></p>';
 		echo '<h1>Home</h1>';
 }
 ?>

@@ -13,5 +13,6 @@ if($user->isLoggedIn()) {
 	Session::flash('home', 'You must be loged in to see that content');
 				Redirect::to('index.php');
 }
+include 'includes/footer.php';
 ?>
 
