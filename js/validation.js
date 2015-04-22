@@ -30,7 +30,7 @@ $(document).ready(function(){
 		        if(error === true) {
 		        val_err.stop().fadeIn(400).delay(1400).fadeOut(800);
 		        return false;
-		        } else {} 
+		        }
 			});
 		});
 	});
@@ -77,10 +77,8 @@ $(document).ready(function(){
 				if(error === true) {
 					val_err.stop().fadeIn(400).delay(1400).fadeOut(800);
 					return false;
-		        } else {}
-
-			});
-			
+		        }
+			});		
 		});
 	});
 });
