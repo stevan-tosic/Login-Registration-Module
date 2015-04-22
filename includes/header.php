@@ -8,12 +8,10 @@ $user = new User();
 <!DOCTYPE html>
 <html>
 <head>
-	<!--
 	<title>Log/Reg modul</title>
 	<script src="js/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/validation.js"></script>
-		-->
 </head>
 <body>
 	<ul>
